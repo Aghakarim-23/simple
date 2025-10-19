@@ -6,7 +6,7 @@ app.use(cors())
 app.use(express.json())
 
 app.get("/", (req, res) => {
-  res.send("Backend is live!")
+  res.send("Backend is live! This is my commit to check it bakckend auto deployment process")
 })
 
 const PORT = process.env.PORT || 5000
